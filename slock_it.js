@@ -11,8 +11,7 @@ const contract = new web3.eth.Contract(ABI, ens_contract);
 
 /**
  * Return an array of promises represents the time, block number and bid value 
- * for event log 
- * for event signature 
+ * for events logs for topic signature 
  * BidRevealed (index_topic_1 bytes32 hash, index_topic_2 address owner, uint256 value, uint8 status)
  * emited on method unsealBid(bytes32,uint256,bytes32) [0x47872b42] 
  * of the public Registrar contract of ENS 
