@@ -22,7 +22,7 @@ const contract = new web3.eth.Contract(ABI, ens_contract);
 function blocks() {
     const dateNow = Date.now();
     return contract.getPastEvents('BidRevealed', {
-            fromBlock: '5924768',
+            fromBlock: '5927632',
             toBlock: 'latest'
         })
         .then((logs) => {
