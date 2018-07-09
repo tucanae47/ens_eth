@@ -16,7 +16,7 @@ const contract = new web3.eth.Contract(ABI, ens_contract);
  * emited on method unsealBid(bytes32,uint256,bytes32) [0x47872b42] 
  * of the public Registrar contract of ENS 
  *
- * @returns {Promise} array with the values of 
+ * @returns {Promise} array with the events logs to create simple graph of the contract, taking the bid done on ENS, the timestamp and the blocknumber
  */
 function blocks() {
     const dateNow = Date.now();
