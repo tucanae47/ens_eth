@@ -30,7 +30,8 @@ https://etherscan.io/address/0x6090a6e47849629b7245dfa1ca21d94cd15878ef
 * From nodejs simple server get logs from contract using nodejs api https://web3js.readthedocs.io/en/1.0/web3-eth-contract.html#getpastevents and get blocknumber https://web3js.readthedocs.io/en/1.0/web3-eth.html#getblocknumber
 * Setup rest get endpoint to public events in json format
 * Read json events from raw html, using [c3](https://github.com/c3js/c3)
-#Snippet of the code 
+
+# Eth js filter logs snippet 
 
 ```js
 
