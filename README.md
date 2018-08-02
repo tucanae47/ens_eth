@@ -30,7 +30,7 @@ the graph plots the changes over the time of the actual bidding.
 
 ```js
 
-const web3 = new Web3(new Web3.providers.HttpProvider('https://mainnet.infura.io/3c90WrdwTPwKo5EZTZW4'));
+const web3 = new Web3(new Web3.providers.HttpProvider('https://mainnet.infura.io/'));
 const ABI = JSON.parse(fs.readFileSync('./abi.json', 'utf8'));
 const ens_contract = '0x6090A6e47849629b7245Dfa1Ca21D94cd15878Ef';
 const contract = new web3.eth.Contract(ABI, ens_contract);
