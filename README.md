@@ -1,6 +1,3 @@
-# Sl0ckit
-Slockit ENS task
-
 # Usage
 Start server with 
 ```js 
@@ -13,13 +10,11 @@ npm test
 ```
 
 
-# Demo url 
-http://54.237.166.112:3000/
-Created  simple timeseries graph of contract event logs. taking the bid done on ENS event, the timestamp with the blocknumber.
-the graph plots the changes over the time of the actual bidding. 
-
 # Contract address
 https://etherscan.io/address/0x6090a6e47849629b7245dfa1ca21d94cd15878ef
+
+Created  simple timeseries graph of contract event logs. taking the bid done on ENS event, the timestamp with the blocknumber.
+the graph plots the changes over the time of the actual bidding. 
 
 
 ![chart example](https://github.com/tucanae47/sl0ckit/blob/master/graph.png)
